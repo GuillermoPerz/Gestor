@@ -8,7 +8,7 @@ class Cliente:
         self.apellido = apellido
 
     def __str__(self):
-        return f"({self.dni}) {self.nombre} {self.apellido}"
+        return f"({self.dni}) {self.nombre} {self.apellido})"
     
 class Clientes:
 
